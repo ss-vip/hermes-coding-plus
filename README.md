@@ -5,7 +5,7 @@
 ### 檔案結構與說明
 
 * **`SOUL.md` (規範與技能)**
-  * 保留並調整預設的 concise 人格特性。
+  * 基於預設的 concise 人格調整。
   * 工作流 INTENT → EXECUTE → VERIFY → REFLECT（意圖→執行→驗證→反思）。
   * MCP 工具使用、完成定義 (DoD)。
   * 暫存檔案、腳本與測試產物（Artifacts）於 `./temp` 隔離，不污染專案（配合 .gitignore）。
@@ -47,4 +47,4 @@ mcp_servers:
 ### SKILL 其他技能補充
 
 - [simplify-codebase](https://github.com/tt-a1i/simplify-codebase)
-- [ponytail-hermes](https://github.com/neptun-zuti/ponytail-hermes/blob/main/README.md)
+
