@@ -4,20 +4,21 @@
 
 ### 檔案結構與說明
 
-* **`SOUL.md` (規範與技能)**
-  * 基於預設的 concise 人格調整。
-  * 工作流 INTENT → EXECUTE → VERIFY → REFLECT（意圖→執行→驗證→反思）。
-  * MCP 工具使用、完成定義 (DoD)。
-  * 暫存檔案、腳本與測試產物（Artifacts）於 `./temp` 隔離，不污染專案（配合 .gitignore）。
-  * 雙層記憶：Hermes memory（本機）+ plugged.in（跨 PC 知識庫）。
+* **`SOUL.md` (身份與人格)**
+  * 基於 concise soul 調整溝通風格、技術態度。
+  * 語言設定：繁體中文回覆，思考過程及術語不受限。
+
+* **`skills/workflow/` (通用工作技能)**
+  * Vibe / Production 模式切換。
+  * Danger 危險操作清單（需確認）。
+  * MCP 工具使用指引（codegraph、plugged.in）。
+  * 記憶策略（搜尋優先、主動記錄、本地與雲端橋接）。
+  * 完成定義 (What / Why / Evidence)。
 
 ### 安裝
 
-將 `SOUL.md` 合併進 hermes 全域技能目錄
-
-* **`MCP Tools` (常用 MCP)**
-  * [codegraph](https://github.com/colbymchenry/codegraph)
-  * [plugged.in](https://plugged.in/)
+* **SOUL.md** → 複製到 `~/.hermes/SOUL.md`（全域身份）
+* **skills/workflow** → 複製到 `~/.hermes/skills/workflow/`（通用工作技能）
 
 ### MCP 依賴
 
@@ -47,4 +48,3 @@ mcp_servers:
 ### SKILL 其他技能補充
 
 - [simplify-codebase](https://github.com/tt-a1i/simplify-codebase)
-
